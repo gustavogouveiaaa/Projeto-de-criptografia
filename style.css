@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family= Rubik: wght @300;400;500 & display=swap');
+
+:root{
+    --corprincipal: #ffc7f9;
+    --corsegundaria: #caf9ff;
+    --cortitulo: #7c0160;
+}
+
+body{
+    background: rgb(91, 203, 223);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.cabecalho{
+    display:flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.cabecalho h1{
+    color: rgb(41, 40, 40);
+}
+
+.cabecalho img{
+    max-width: 70px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+.cointainer-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+.cointainer-input .input{
+    width: 400px;
+    height: 330px;
+}
+
+#input-texto{
+    width: 345px;
+    height: 80px;
+    font-size: 20px;
+    color: black;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;  
+}
+
+#output{
+    display: inline-block;
+    flex-direction: column;
+    border: 4px solid black;
+    border-radius: 30px;
+    width: 350px;
+    height: 380px;
+    margin-right: 3%; 
+    margin-left: 70%;
+}
+
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+
+#output span{
+    margin-top: 15%;
+    display: flex;
+    font-size: 17px;
+    text-align: center;
+}
+
+#output img{
+    max-width: 300px;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    margin-top: 4%;  
+    margin-left: 22%;  
+}
+
+.container-bnt button{
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.container-bnt button:hover{
+    border: 2px solid rgb(91, 203, 223);
+    transition: 0.2s all;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px;
+    background: white;
+    color: black;
+}
+.rodape h3{
+    font-size: 16px;
+    
+}
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: black;
+    margin-left: 10%;
+}
+
+.icons ion-icon:hover{
+    color: rgb(121, 0, 0)
+}
+btn-copiar{
+    border: #7c0160;
+    border: 5px;
+    margin-left: 50%;
+}
